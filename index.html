@@ -7,9 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./src/styles/main.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
+
+    <title>Yu-Gi-Oh Jo-Ken-Po Editor</title>
 </head>
 <body>
+    <audio id="bgm" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3">
+    </audio>
+
+
     <div class="bg-video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4" />
@@ -35,11 +42,11 @@
                 </div>
                 <div class="card-versus__container">
                     <div class="versus-top">
-                        <div class="card-infield">
+                        <div class="card-infield ">
                             <img id="player-field-card" height="180px" width="125px">
                         </div>
                         <img height="100px" src="./src/assets/icons/millenium2.png">
-                        <div class="card-infield">
+                        <div class="card-infield ">
                             <img id="computer-field-card" height="180px" width="125px" alt="">
                         </div>
                     </div>
